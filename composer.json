@@ -1,0 +1,16 @@
+{
+    "name": "larakit-admin/larakit-admin",
+    "license": "MIT",
+    "require": {
+        "deployer/deployer": "^6.3",
+        "barryvdh/laravel-ide-helper": "^2.6",
+        "doctrine/dbal": "^2.9",
+        "hashids/hashids": "^3.0",
+        "larakit-admin/resource":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larakit\\": "src"
+        }
+    }
+}
